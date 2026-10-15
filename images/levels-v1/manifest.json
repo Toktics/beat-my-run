@@ -1,0 +1,251 @@
+{
+  "pack": "levels-v1",
+  "version": 1,
+  "palette": {
+    "ink": "#1a1f1a",
+    "screen": "#cdd3bd",
+    "mid": "#8d9789",
+    "highlight": "#d9decf"
+  },
+  "frames": {
+    "backdrops": {
+      "l9Cavern": {
+        "file": "l9-cavern-backdrop.png",
+        "frame": {
+          "width": 2048,
+          "height": 768
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "role": "L9 cavern-only parallax backdrop; no foreground collision geometry"
+      }
+    },
+    "creatures": {
+      "sharkHalfSub": {
+        "file": "shark-half-sub.png",
+        "frame": {
+          "width": 160,
+          "height": 96
+        },
+        "visible": {
+          "x": 10,
+          "y": 0,
+          "width": 140,
+          "height": 90
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0
+        },
+        "joinY": 0,
+        "intendedDisplay": {
+          "width": 120,
+          "height": 72
+        }
+      },
+      "boulder": {
+        "file": "boulder.png",
+        "frame": {
+          "width": 312,
+          "height": 300
+        },
+        "visible": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 300
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "intendedDisplay": {
+          "width": 156,
+          "height": 150
+        },
+        "note": "Martin-supplied rock; rotates continuously \u2014 reads at every angle."
+      },
+      "glowfly": {
+        "file": "glowfly.png",
+        "frame": {
+          "width": 639,
+          "height": 426
+        },
+        "visible": {
+          "x": 0,
+          "y": 0,
+          "width": 639,
+          "height": 426
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "intendedDisplay": {
+          "width": 40,
+          "height": 27
+        },
+        "note": "Martin-supplied glowfly (wasp-art lineage) \u2014 L9 cavern collectible. Same size/spacing/arcs as fish."
+      },
+      "dodoFlightUp": {
+        "file": "dodo-flight-up.png",
+        "frame": { "width": 512, "height": 384 },
+        "anchor": { "x": 0.5, "y": 0.5 },
+        "intendedDisplay": { "width": 112, "height": 84 },
+        "role": "L9 one-off opposite-direction cameo; awkward flap up"
+      },
+      "dodoFlightDown": {
+        "file": "dodo-flight-down.png",
+        "frame": { "width": 512, "height": 384 },
+        "anchor": { "x": 0.5, "y": 0.5 },
+        "intendedDisplay": { "width": 112, "height": 84 },
+        "role": "L9 one-off opposite-direction cameo; awkward flap down"
+      },
+      "dodoLand": {
+        "file": "dodo-land.png",
+        "frame": { "width": 512, "height": 384 },
+        "anchor": { "x": 0.5, "y": 1 },
+        "intendedDisplay": { "width": 112, "height": 84 },
+        "role": "L9 one-off cameo; relieved landing before boulder occlusion"
+      },
+      "dodoFeather": {
+        "file": "dodo-feather.png",
+        "frame": { "width": 256, "height": 256 },
+        "anchor": { "x": 0.5, "y": 0.5 },
+        "intendedDisplay": { "width": 28, "height": 28 },
+        "role": "L9 dodo impact particle; instance with varied scale, flip and rotation"
+      }
+    },
+    "hazards": {
+      "anvil": {
+        "file": "anvil.png",
+        "frame": {
+          "width": 520,
+          "height": 300
+        },
+        "visible": {
+          "x": 16,
+          "y": 64,
+          "width": 488,
+          "height": 214
+        },
+        "baseline": 278,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "intendedDisplay": {
+          "width": 52,
+          "height": 30
+        }
+      },
+      "cannon": {
+        "file": "cannon.png",
+        "frame": {
+          "width": 640,
+          "height": 480
+        },
+        "visible": {
+          "x": 24,
+          "y": 61,
+          "width": 592,
+          "height": 399
+        },
+        "baseline": 460,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "intendedDisplay": {
+          "width": 140,
+          "height": 110
+        }
+      },
+      "wall": {
+        "file": "wall.png",
+        "frame": {
+          "width": 100,
+          "height": 150
+        },
+        "visible": {
+          "x": 4,
+          "y": 4,
+          "width": 92,
+          "height": 142
+        },
+        "baseline": 146,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "intendedDisplay": {
+          "width": 34,
+          "height": 170
+        }
+      }
+    },
+    "terrain": {
+      "slick": {
+        "file": "slick.png",
+        "frame": {
+          "width": 128,
+          "height": 12
+        },
+        "visible": {
+          "x": 0,
+          "y": 2,
+          "width": 128,
+          "height": 9
+        },
+        "anchor": {
+          "x": 0,
+          "y": 1
+        },
+        "seamlessX": true,
+        "role": "transparent highlight overlay on dark track"
+      }
+    },
+    "props": {
+      "fakeFlagUp": {
+        "file": "flag-fake-up.png",
+        "frame": {
+          "width": 70,
+          "height": 40
+        },
+        "visible": {
+          "x": 2,
+          "y": 2,
+          "width": 66,
+          "height": 36
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "state": "upright",
+        "poleIncluded": false
+      },
+      "fakeFlagDown": {
+        "file": "flag-fake-down.png",
+        "frame": {
+          "width": 70,
+          "height": 40
+        },
+        "visible": {
+          "x": 2,
+          "y": 2,
+          "width": 66,
+          "height": 35
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "state": "drooping-detached",
+        "poleIncluded": false
+      }
+    }
+  }
+}

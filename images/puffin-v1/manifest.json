@@ -1,0 +1,578 @@
+{
+  "frameWidth": 288,
+  "frameHeight": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.90625
+  },
+  "frames": {
+    "hero": {
+      "run-01": {
+        "file": "hero/run-01.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 48,
+          "y": 58,
+          "width": 216,
+          "height": 174
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-02": {
+        "file": "hero/run-02.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 71,
+          "y": 51,
+          "width": 192,
+          "height": 181
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-03": {
+        "file": "hero/run-03.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 61,
+          "y": 56,
+          "width": 203,
+          "height": 176
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-04": {
+        "file": "hero/run-04.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 90,
+          "y": 54,
+          "width": 173,
+          "height": 178
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "jump-tuck": {
+        "file": "hero/jump-tuck.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 60,
+          "y": 74,
+          "width": 202,
+          "height": 158
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "flap-up": {
+        "file": "hero/flap-up.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 40,
+          "y": 17,
+          "width": 224,
+          "height": 215
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "squish": {
+        "file": "hero/squish.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 17,
+          "y": 84,
+          "width": 264,
+          "height": 148
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "stunned": {
+        "file": "hero/stunned.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 126,
+          "y": 52,
+          "width": 139,
+          "height": 180
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "squish-back": {
+        "file": "hero/squish-back.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 18,
+          "y": 121,
+          "width": 252,
+          "height": 111
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "stunned-front": {
+        "file": "hero/stunned-front.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 72,
+          "y": 52,
+          "width": 144,
+          "height": 180
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "cheero-throw": {
+        "file": "hero/cheero-throw.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 12,
+          "y": 62,
+          "width": 264,
+          "height": 170
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "dazed": {
+        "file": "hero/dazed.png",
+        "textureKey": "hero-dazed",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 43,
+          "y": 16,
+          "width": 203,
+          "height": 216
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "hero-landing": {
+        "file": "hero/hero-landing.png",
+        "textureKey": "hero-landing",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "backstroke-01": {
+        "file": "hero/backstroke-01.png",
+        "textureKey": "hero-backstroke-01",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "backstroke-02": {
+        "file": "hero/backstroke-02.png",
+        "textureKey": "hero-backstroke-02",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "stung": {
+        "file": "hero/stung.png",
+        "textureKey": "hero-stung",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 35,
+          "y": 20,
+          "width": 218,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "pot-worn-01": {
+        "file": "hero/pot-worn-01.png",
+        "textureKey": "hero-pot-worn-01",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 32,
+          "y": 20,
+          "width": 224,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "pot-worn-02": {
+        "file": "hero/pot-worn-02.png",
+        "textureKey": "hero-pot-worn-02",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 27,
+          "y": 20,
+          "width": 233,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      }
+    },
+    "ghost": {
+      "run-01": {
+        "file": "ghost/run-01.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 49,
+          "y": 51,
+          "width": 211,
+          "height": 181
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-02": {
+        "file": "ghost/run-02.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 67,
+          "y": 60,
+          "width": 193,
+          "height": 172
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-03": {
+        "file": "ghost/run-03.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 54,
+          "y": 44,
+          "width": 206,
+          "height": 188
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      }
+    },
+    "saboteur": {
+      "perch": {
+        "file": "saboteur/perch.png",
+        "textureKey": "cheero-perch",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 31,
+          "y": 56,
+          "width": 226,
+          "height": 176
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/cheero-saboteur-v1/masters/perch-master.png"
+      },
+      "windup": {
+        "file": "saboteur/windup.png",
+        "textureKey": "cheero-windup",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 17,
+          "y": 44,
+          "width": 255,
+          "height": 188
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/cheero-saboteur-v1/masters/windup-master.png"
+      },
+      "taunt": {
+        "file": "saboteur/taunt.png",
+        "textureKey": "cheero-taunt",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 31,
+          "y": 32,
+          "width": 226,
+          "height": 200
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/cheero-saboteur-v1/masters/taunt-master.png"
+      },
+      "throw": {
+        "file": "hero/cheero-throw.png",
+        "textureKey": "cheero-throw",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 12,
+          "y": 62,
+          "width": 264,
+          "height": 170
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/gecko-runner-v1/masters/cheero-throw.png",
+        "note": "Existing approved release pose, intentionally preserved."
+      },
+      "crateheave": {
+        "file": "saboteur/cheero-crateheave.png",
+        "textureKey": "cheero-crateheave",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 24,
+          "y": 20,
+          "width": 240,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/cheero-saboteur-v1/masters/crateheave-master.png",
+        "heldProp": "hazard-detail-v1/crate.png",
+        "request": "REQ-BE"
+      },
+      "nestlob": {
+        "file": "saboteur/cheero-nestlob.png",
+        "textureKey": "cheero-nestlob",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 22,
+          "y": 20,
+          "width": 245,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/cheero-saboteur-v1/masters/nestlob-master.png",
+        "heldProp": "wasp-v1/nest.png",
+        "request": "REQ-BE"
+      }
+    }
+  },
+  "animations": {
+    "heroRun": {
+      "sheet": "hero-run-sheet.png",
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fps": 12,
+      "repeat": -1
+    },
+    "ghostRun": {
+      "sheet": "ghost-run-sheet.png",
+      "frames": [
+        0,
+        1,
+        2
+      ],
+      "fps": 10,
+      "repeat": -1
+    }
+  },
+  "heroSheetOrder": [
+    "run-01",
+    "run-02",
+    "run-03",
+    "run-04",
+    "jump-tuck",
+    "flap-up",
+    "squish",
+    "stunned"
+  ],
+  "hitReactionSheet": {
+    "file": "hero-hit-reactions-sheet.png",
+    "order": [
+      "squish-back",
+      "stunned-front"
+    ],
+    "frameWidth": 288,
+    "frameHeight": 256
+  }
+}

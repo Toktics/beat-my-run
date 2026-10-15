@@ -1,0 +1,134 @@
+{
+  "request": "REQ-X",
+  "palette": {
+    "backdrop": "#b9c2aa",
+    "perchAccent": "#8d9789",
+    "highlight": "#dde2cf",
+    "screen": "#cdd3bd"
+  },
+  "coordinateSpace": "local image pixels at worldScale 1",
+  "frames": {
+    "props": {
+      "l1-tree": {
+        "file": "l1-tree.png",
+        "family": "L1-meadow",
+        "frame": {
+          "width": 840,
+          "height": 440
+        },
+        "visible": {
+          "x": 105,
+          "y": 12,
+          "width": 631,
+          "height": 420
+        },
+        "baseline": 432,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "worldScale": 1,
+        "perchX": 610,
+        "perchY": 244,
+        "clearRect": {
+          "x": 538,
+          "y": 108,
+          "width": 144,
+          "height": 128
+        },
+        "facingAllowance": "Garry faces right natively and may be flipped left; prop is valid from either approach.",
+        "source": "../../asset-sources/perch-v1/l1-tree-uncropped.png"
+      },
+      "l1-tower": {
+        "file": "l1-tower.png",
+        "family": "L1-meadow",
+        "frame": {
+          "width": 360,
+          "height": 400
+        },
+        "visible": {
+          "x": 8,
+          "y": 134,
+          "width": 344,
+          "height": 258
+        },
+        "baseline": 392,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "worldScale": 1,
+        "perchX": 180,
+        "perchY": 184,
+        "clearRect": {
+          "x": 108,
+          "y": 56,
+          "width": 144,
+          "height": 128
+        },
+        "facingAllowance": "Garry faces right natively and may be flipped left; prop is valid from either approach.",
+        "source": "../../asset-sources/perch-v1/masters/meadow-lookout-clean-base-master.png"
+      },
+      "l2-crane": {
+        "file": "l2-crane.png",
+        "family": "L2-harbour",
+        "frame": {
+          "width": 700,
+          "height": 420
+        },
+        "visible": {
+          "x": 54,
+          "y": 12,
+          "width": 592,
+          "height": 400
+        },
+        "baseline": 412,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "worldScale": 1,
+        "perchX": 250,
+        "perchY": 204,
+        "clearRect": {
+          "x": 178,
+          "y": 76,
+          "width": 144,
+          "height": 128
+        },
+        "facingAllowance": "Garry faces right natively and may be flipped left; prop is valid from either approach.",
+        "source": "../../asset-sources/perch-v1/masters/harbour-crane-master.png"
+      },
+      "l2-roof": {
+        "file": "l2-roof.png",
+        "family": "L2-harbour",
+        "frame": {
+          "width": 560,
+          "height": 400
+        },
+        "visible": {
+          "x": 8,
+          "y": 192,
+          "width": 544,
+          "height": 200
+        },
+        "baseline": 392,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "worldScale": 1,
+        "perchX": 280,
+        "perchY": 192,
+        "clearRect": {
+          "x": 208,
+          "y": 64,
+          "width": 144,
+          "height": 128
+        },
+        "facingAllowance": "Garry faces right natively and may be flipped left; prop is valid from either approach.",
+        "source": "../../asset-sources/perch-v1/masters/harbour-warehouse-master.png"
+      }
+    }
+  }
+}

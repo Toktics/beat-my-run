@@ -1,0 +1,167 @@
+{
+  "request": "REQ-Z2",
+  "suppliedReferences": "Martin, 2026-10-10",
+  "artDirection": "Martin supplied drawings retained; saturation reduced and colours softly blended toward the LCD screen family.",
+  "accentPolicy": "Orange remains visible for personality, matching the banana and Cheero exceptions.",
+  "frames": {
+    "crab-side": {
+      "file": "crab-side.png",
+      "textureKey": "tide-crab-side",
+      "frame": {
+        "width": 160,
+        "height": 112
+      },
+      "visible": {
+        "x": 5,
+        "y": 15,
+        "width": 150,
+        "height": 91
+      },
+      "baseline": 106,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9464
+      },
+      "intendedDisplay": {
+        "width": 68,
+        "height": 50
+      },
+      "role": "lob-flight and horizontal scuttle",
+      "facing": "right"
+    },
+    "crab-front": {
+      "file": "crab-front.png",
+      "textureKey": "tide-crab-front",
+      "frame": {
+        "width": 160,
+        "height": 120
+      },
+      "visible": {
+        "x": 5,
+        "y": 24,
+        "width": 150,
+        "height": 90
+      },
+      "baseline": 114,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.95
+      },
+      "intendedDisplay": {
+        "width": 76,
+        "height": 57
+      },
+      "role": "landed claws-up snap/reveal",
+      "facing": "front"
+    },
+    "tide-gauge": {
+      "file": "tide-gauge.png",
+      "textureKey": "tide-gauge",
+      "frame": {
+        "width": 96,
+        "height": 192
+      },
+      "visible": {
+        "x": 18,
+        "y": 5,
+        "width": 61,
+        "height": 182
+      },
+      "baseline": 187,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.974
+      },
+      "intendedDisplay": {
+        "width": 50,
+        "height": 100
+      },
+      "role": "coastal tide warning and surge telegraph prop",
+      "facing": "front"
+    },
+    "buoy": {
+      "file": "buoy.png",
+      "textureKey": "tide-buoy",
+      "frame": {
+        "width": 96,
+        "height": 160
+      },
+      "visible": {
+        "x": 4,
+        "y": 25,
+        "width": 88,
+        "height": 130
+      },
+      "baseline": 155,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9688
+      },
+      "intendedDisplay": {
+        "width": 48,
+        "height": 80
+      },
+      "role": "pale coastal backdrop dressing",
+      "facing": "front"
+    },
+    "causeway": {
+      "file": "causeway.png",
+      "textureKey": "tide-causeway",
+      "frame": {
+        "width": 256,
+        "height": 80
+      },
+      "visible": {
+        "x": 0,
+        "y": 0,
+        "width": 256,
+        "height": 80
+      },
+      "baseline": 80,
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "intendedDisplay": {
+        "width": 256,
+        "height": 80
+      },
+      "role": "horizontally repeating stone causeway running surface",
+      "seamlessX": true,
+      "surfaceY": 0
+    },
+    "tide-foam": {
+      "file": "tide-foam.png",
+      "textureKey": "tide-foam",
+      "frame": {
+        "width": 512,
+        "height": 64
+      },
+      "visible": {
+        "x": 0,
+        "y": 0,
+        "width": 512,
+        "height": 64
+      },
+      "baseline": 64,
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "intendedDisplay": {
+        "width": 512,
+        "height": 64
+      },
+      "role": "horizontally repeating broad lateral tide wash",
+      "seamlessX": true,
+      "surgeDirection": "code-controlled"
+    }
+  },
+  "palette": {
+    "ink": "#1a1f1a",
+    "mid": "#8d9789",
+    "pale": "#b9c2aa",
+    "highlight": "#dde2cf"
+  },
+  "crabArtDirection": "Martin supplied drawings retained; saturation reduced and colours softly blended toward the LCD screen family."
+}

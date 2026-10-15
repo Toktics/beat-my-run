@@ -1,0 +1,735 @@
+{
+  "frameWidth": 288,
+  "frameHeight": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.90625
+  },
+  "frames": {
+    "garry": {
+      "perch": {
+        "file": "garry/perch.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 41,
+          "y": 20,
+          "width": 207,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "windup": {
+        "file": "garry/windup.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 54,
+          "y": 20,
+          "width": 181,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "throw": {
+        "file": "garry/throw.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 33,
+          "y": 20,
+          "width": 222,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "taunt": {
+        "file": "garry/taunt.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 45,
+          "y": 20,
+          "width": 199,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "banana": {
+        "file": "garry/banana.png",
+        "textureKey": "garry-banana",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 37,
+          "y": 20,
+          "width": 215,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left"
+      },
+      "lean": {
+        "file": "garry/lean.png",
+        "textureKey": "garry-lean",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 20,
+          "y": 20,
+          "width": 248,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "source": "../../../asset-sources/perch-v1/masters/lean-master.png"
+      },
+      "shove": {
+        "file": "garry/shove.png",
+        "textureKey": "garry-shove",
+        "frame": {
+          "width": 384,
+          "height": 256
+        },
+        "visible": {
+          "x": 10,
+          "y": 13,
+          "width": 364,
+          "height": 233
+        },
+        "baseline": 246,
+        "origin": {
+          "x": 0.5,
+          "y": 0.9609375
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.9609375
+        },
+        "facing": "right",
+        "intendedDisplay": {
+          "width": 156,
+          "height": 104
+        }
+      },
+      "relocate": {
+        "file": "garry/relocate.png",
+        "textureKey": "garry-relocate",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 14,
+          "y": 35,
+          "width": 260,
+          "height": 128
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "pivot": {
+          "x": 144,
+          "y": 232
+        },
+        "facing": "right",
+        "airborne": true,
+        "source": "../../../asset-sources/perch-v1/masters/relocate-master.png"
+      },
+      "gunner": {
+        "file": "garry/gunner.png",
+        "textureKey": "garry-gunner",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 20,
+          "y": 20,
+          "width": 248,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right"
+      },
+      "nestlob": {
+        "file": "garry/nestlob.png",
+        "textureKey": "garry-nestlob",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 36,
+          "y": 20,
+          "width": 216,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "heldProp": "wasp-v1/nest.png"
+      },
+      "crateheave": {
+        "file": "garry/crateheave.png",
+        "textureKey": "garry-crateheave",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 35,
+          "y": 20,
+          "width": 219,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "heldProp": "hazard-detail-v1/crate.png"
+      },
+      "potgrab": {
+        "file": "garry/potgrab.png",
+        "textureKey": "garry-potgrab",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 12,
+          "y": 53,
+          "width": 264,
+          "height": 179
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "heldProp": "rooftop-v1/chimney-pot.png",
+        "source": "../../../asset-sources/garry-rooftop-v1/masters/garry-pot-sequence.png"
+      },
+      "potpush": {
+        "file": "garry/potpush.png",
+        "textureKey": "garry-potpush",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 12,
+          "y": 81,
+          "width": 264,
+          "height": 151
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "heldProp": "rooftop-v1/chimney-pot.png",
+        "source": "../../../asset-sources/garry-rooftop-v1/masters/garry-pot-sequence.png"
+      },
+      "roof-run-01": {
+        "file": "garry/roof-run-01.png",
+        "textureKey": "garry-roof-run-01",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 12,
+          "y": 82,
+          "width": 264,
+          "height": 150
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "source": "../../../asset-sources/garry-rooftop-v1/masters/garry-rooftop-movement.png"
+      },
+      "roof-run-02": {
+        "file": "garry/roof-run-02.png",
+        "textureKey": "garry-roof-run-02",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 12,
+          "y": 87,
+          "width": 264,
+          "height": 145
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "source": "../../../asset-sources/garry-rooftop-v1/masters/garry-roof-run-alt.png"
+      },
+      "roof-leap": {
+        "file": "garry/roof-leap.png",
+        "textureKey": "garry-roof-leap",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 12,
+          "y": 96,
+          "width": 264,
+          "height": 136
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "airborne": true,
+        "source": "../../../asset-sources/garry-rooftop-v1/masters/garry-rooftop-movement.png"
+      }
+    },
+    "runner": {
+      "run-01": {
+        "file": "runner/run-01.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 59,
+          "width": 201,
+          "height": 173
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-02": {
+        "file": "runner/run-02.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 36,
+          "y": 72,
+          "width": 217,
+          "height": 160
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-03": {
+        "file": "runner/run-03.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 27,
+          "y": 84,
+          "width": 235,
+          "height": 148
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-04": {
+        "file": "runner/run-04.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 56,
+          "width": 200,
+          "height": 176
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "jump-tuck": {
+        "file": "runner/jump-tuck.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 41,
+          "y": 52,
+          "width": 207,
+          "height": 180
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "flap-up": {
+        "file": "runner/flap-up.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 27,
+          "y": 32,
+          "width": 235,
+          "height": 200
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "stunned": {
+        "file": "runner/stunned.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 47,
+          "y": 52,
+          "width": 195,
+          "height": 180
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "squish-back": {
+        "file": "runner/squish-back.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 34,
+          "y": 137,
+          "width": 221,
+          "height": 95
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "blocks": {
+        "file": "runner/blocks.png",
+        "textureKey": "grun-blocks",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 35,
+          "y": 120,
+          "width": 218,
+          "height": 112
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "dazed": {
+        "file": "runner/dazed.png",
+        "textureKey": "grun-dazed",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 29,
+          "width": 250,
+          "height": 203
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/dazed.png"
+      },
+      "stung": {
+        "file": "runner/stung.png",
+        "textureKey": "grun-stung",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 28,
+          "width": 250,
+          "height": 204
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/stung.png"
+      },
+      "stunned-front": {
+        "file": "runner/stunned-front.png",
+        "textureKey": "grun-stunned-front",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 68,
+          "y": 52,
+          "width": 152,
+          "height": 180
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/stunned-front.png"
+      },
+      "hero-landing": {
+        "file": "runner/hero-landing.png",
+        "textureKey": "grun-hero-landing",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 91,
+          "width": 250,
+          "height": 141
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/hero-landing.png"
+      },
+      "backstroke-01": {
+        "file": "runner/backstroke-01.png",
+        "textureKey": "grun-backstroke-01",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 75,
+          "width": 250,
+          "height": 107
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/backstroke-01.png"
+      },
+      "backstroke-02": {
+        "file": "runner/backstroke-02.png",
+        "textureKey": "grun-backstroke-02",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 81,
+          "width": 250,
+          "height": 94
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/backstroke-02.png"
+      },
+      "pot-worn-01": {
+        "file": "runner/pot-worn-01.png",
+        "textureKey": "grun-pot-worn-01",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 37,
+          "y": 20,
+          "width": 214,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/pot-worn-01.png"
+      },
+      "pot-worn-02": {
+        "file": "runner/pot-worn-02.png",
+        "textureKey": "grun-pot-worn-02",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 20,
+          "width": 200,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/pot-worn-02.png"
+      }
+    }
+  },
+  "animations": {
+    "runnerRun": {
+      "sheet": "runner/run-sheet.png",
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fps": 12,
+      "repeat": -1
+    }
+  }
+}

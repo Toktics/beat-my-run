@@ -1,0 +1,145 @@
+{
+  "reference": "../character-studies/garry-approved-reference-v1.png",
+  "palette": {
+    "ink": "#1a1f1a",
+    "green": "#51c44d",
+    "darkGreen": "#14783f",
+    "cream": "#f7e7c5",
+    "olive": "#7a856f",
+    "pale": "#b9c2aa"
+  },
+  "frames": {
+    "opening": {
+      "garry-tree-peek": {
+        "file": "garry-tree-peek.webp",
+        "textureKey": "op-peek",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 103,
+          "y": 20,
+          "width": 178,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/opening-v2/masters/garry-tree-peek.png"
+      },
+      "garry-plunger-up": {
+        "file": "garry-plunger-up.webp",
+        "textureKey": "op-plunger-up",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 57,
+          "y": 20,
+          "width": 222,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/opening-v2/masters/garry-plunger-up.png"
+      },
+      "garry-plunger": {
+        "file": "garry-plunger.webp",
+        "textureKey": "op-plunger",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 60,
+          "y": 20,
+          "width": 219,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "left",
+        "source": "../../../asset-sources/opening-v2/masters/garry-plunger.png"
+      },
+      "boom": {
+        "file": "boom.png",
+        "textureKey": "op-boom",
+        "frame": {
+          "width": 256,
+          "height": 160
+        },
+        "visible": {
+          "x": 12,
+          "y": 21,
+          "width": 232,
+          "height": 123
+        },
+        "baseline": 144,
+        "origin": {
+          "x": 0.5,
+          "y": 0.9
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.9
+        },
+        "facing": null,
+        "source": "../../../asset-sources/opening-v2/masters/boom.png"
+      },
+      "start-flag": {
+        "file": "start-flag.png",
+        "textureKey": "op-flag",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 14,
+          "y": 36,
+          "width": 261,
+          "height": 196
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": null,
+        "source": "../../../asset-sources/opening-v2/masters/start-flag.png"
+      }
+    }
+  },
+  "notes": [
+    "Garry colors follow the locked brighter approved reference rather than the conflicting #6faf3f note.",
+    "Peek and plunger include the tree; replace the complete plate between poses rather than draw a second tree.",
+    "Start gate contains no baked label; START text can be rendered by the game."
+  ]
+}

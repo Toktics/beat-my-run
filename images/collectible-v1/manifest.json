@@ -1,0 +1,44 @@
+{
+  "palette": {
+    "orange": "#ff7a1a",
+    "ink": "#1a1f1a"
+  },
+  "frames": {
+    "collectible": {
+      "fish": {
+        "file": "fish.png",
+        "frame": {
+          "width": 64,
+          "height": 64
+        },
+        "visible": {
+          "x": 5,
+          "y": 15,
+          "width": 54,
+          "height": 33
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "fish-burst": {
+        "file": "fish-burst.png",
+        "frame": {
+          "width": 128,
+          "height": 48
+        },
+        "visible": {
+          "x": 5,
+          "y": 14,
+          "width": 118,
+          "height": 19
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  }
+}

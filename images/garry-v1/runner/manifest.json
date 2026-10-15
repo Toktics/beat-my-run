@@ -1,0 +1,377 @@
+{
+  "frameWidth": 288,
+  "frameHeight": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.90625
+  },
+  "baseline": 232,
+  "palette": {
+    "ink": "#1a1f1a",
+    "green": "#51c44d",
+    "darkGreen": "#14783f",
+    "cream": "#f7e7c5"
+  },
+  "frames": {
+    "runner": {
+      "run-01": {
+        "file": "run-01.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 59,
+          "width": 201,
+          "height": 173
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-02": {
+        "file": "run-02.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 36,
+          "y": 72,
+          "width": 217,
+          "height": 160
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-03": {
+        "file": "run-03.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 27,
+          "y": 84,
+          "width": 235,
+          "height": 148
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "run-04": {
+        "file": "run-04.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 56,
+          "width": 200,
+          "height": 176
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "jump-tuck": {
+        "file": "jump-tuck.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 41,
+          "y": 52,
+          "width": 207,
+          "height": 180
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "flap-up": {
+        "file": "flap-up.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 27,
+          "y": 32,
+          "width": 235,
+          "height": 200
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "stunned": {
+        "file": "stunned.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 47,
+          "y": 52,
+          "width": 195,
+          "height": 180
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "squish-back": {
+        "file": "squish-back.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 34,
+          "y": 137,
+          "width": 221,
+          "height": 95
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "blocks": {
+        "file": "blocks.png",
+        "textureKey": "grun-blocks",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 35,
+          "y": 120,
+          "width": 218,
+          "height": 112
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.90625
+        }
+      },
+      "dazed": {
+        "file": "dazed.png",
+        "textureKey": "grun-dazed",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 29,
+          "width": 250,
+          "height": 203
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/dazed.png"
+      },
+      "stung": {
+        "file": "stung.png",
+        "textureKey": "grun-stung",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 28,
+          "width": 250,
+          "height": 204
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/stung.png"
+      },
+      "stunned-front": {
+        "file": "stunned-front.png",
+        "textureKey": "grun-stunned-front",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 68,
+          "y": 52,
+          "width": 152,
+          "height": 180
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/stunned-front.png"
+      },
+      "hero-landing": {
+        "file": "hero-landing.png",
+        "textureKey": "grun-hero-landing",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 91,
+          "width": 250,
+          "height": 141
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/hero-landing.png"
+      },
+      "backstroke-01": {
+        "file": "backstroke-01.png",
+        "textureKey": "grun-backstroke-01",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 75,
+          "width": 250,
+          "height": 107
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/backstroke-01.png"
+      },
+      "backstroke-02": {
+        "file": "backstroke-02.png",
+        "textureKey": "grun-backstroke-02",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 19,
+          "y": 81,
+          "width": 250,
+          "height": 94
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/backstroke-02.png"
+      },
+      "pot-worn-01": {
+        "file": "pot-worn-01.png",
+        "textureKey": "grun-pot-worn-01",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 37,
+          "y": 20,
+          "width": 214,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/pot-worn-01.png"
+      },
+      "pot-worn-02": {
+        "file": "pot-worn-02.png",
+        "textureKey": "grun-pot-worn-02",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 20,
+          "width": 200,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "source": "../../asset-sources/gecko-runner-reactions-v1/masters/pot-worn-02.png"
+      }
+    }
+  },
+  "animations": {
+    "run": {
+      "sheet": "run-sheet.png",
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fps": 12,
+      "repeat": -1
+    }
+  },
+  "sheetOrder": [
+    "run-01",
+    "run-02",
+    "run-03",
+    "run-04",
+    "jump-tuck",
+    "flap-up",
+    "stunned",
+    "squish-back",
+    "dazed",
+    "stung",
+    "stunned-front",
+    "hero-landing",
+    "backstroke-01",
+    "backstroke-02",
+    "pot-worn-01",
+    "pot-worn-02"
+  ]
+}

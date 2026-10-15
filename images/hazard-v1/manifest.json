@@ -1,0 +1,82 @@
+{
+  "palette": {
+    "hazardInk": "#1a1f1a",
+    "screen": "#cdd3bd"
+  },
+  "frames": {
+    "hazards": {
+      "spikes": {
+        "file": "spikes.png",
+        "frame": {
+          "width": 64,
+          "height": 36
+        },
+        "visible": {
+          "x": 4,
+          "y": 13,
+          "width": 56,
+          "height": 19
+        },
+        "baseline": 32,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "spring": {
+        "file": "spring.png",
+        "frame": {
+          "width": 64,
+          "height": 40
+        },
+        "visible": {
+          "x": 11,
+          "y": 4,
+          "width": 42,
+          "height": 32
+        },
+        "baseline": 36,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "crate": {
+        "file": "crate.png",
+        "frame": {
+          "width": 56,
+          "height": 56
+        },
+        "visible": {
+          "x": 4,
+          "y": 9,
+          "width": 48,
+          "height": 43
+        },
+        "baseline": 52,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "saw": {
+        "file": "saw.png",
+        "frame": {
+          "width": 64,
+          "height": 64
+        },
+        "visible": {
+          "x": 4,
+          "y": 6,
+          "width": 56,
+          "height": 54
+        },
+        "baseline": 60,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    }
+  }
+}

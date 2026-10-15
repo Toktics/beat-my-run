@@ -1,0 +1,88 @@
+{
+  "pack": "dock-v1",
+  "version": 2,
+  "palette": [
+    "#1a1f1a",
+    "#b9c2aa",
+    "#dde2cf"
+  ],
+  "frames": {
+    "pier-deck": {
+      "file": "pier-deck.png",
+      "width": 128,
+      "height": 26,
+      "origin": {
+        "x": 0,
+        "y": 0
+      },
+      "surfaceY": 0,
+      "tileX": true,
+      "visible": {
+        "x": 0,
+        "y": 0,
+        "width": 128,
+        "height": 26
+      }
+    },
+    "pier-stilt": {
+      "file": "pier-stilt.png",
+      "width": 16,
+      "height": 120,
+      "origin": {
+        "x": 0.5,
+        "y": 0
+      },
+      "visible": {
+        "x": 0,
+        "y": 3,
+        "width": 16,
+        "height": 114
+      },
+      "collision": false
+    },
+    "pier-gap": {
+      "file": "pier-gap.png",
+      "width": 64,
+      "height": 40,
+      "origin": {
+        "x": 0,
+        "y": 0
+      },
+      "surfaceY": 0,
+      "flipXForOppositeEdge": true,
+      "visible": {
+        "x": 3,
+        "y": 0,
+        "width": 58,
+        "height": 26
+      }
+    },
+    "waves": {
+      "file": "waves.png",
+      "width": 128,
+      "height": 14,
+      "origin": {
+        "x": 0,
+        "y": 0.5
+      },
+      "waterlineY": 13,
+      "tileX": true,
+      "visible": {
+        "x": 0,
+        "y": 0,
+        "width": 128,
+        "height": 14
+      }
+    }
+  },
+  "integration": {
+    "worldGroundY": 500,
+    "waterlineOffsetBelowTrack": 34,
+    "pitFloorOffsetBelowTrack": 160,
+    "gapWidthRange": [
+      150,
+      260
+    ],
+    "notes": "Tile deck per arbitrary ground span; place non-colliding stilts below the deck about every 110px; flip pier-gap for the opposite mouth; tile and bob waves independently over the code-filled water body."
+  }
+}

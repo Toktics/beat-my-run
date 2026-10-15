@@ -1,0 +1,54 @@
+{
+  "pack": "street-rooftops-v2",
+  "version": 2,
+  "status": "integrated in L7; contact preview is separate from live captures",
+  "styleReference": "../rooftop-v1/skyline-far.png",
+  "palette": [
+    "#aab4a0",
+    "#b9c2aa",
+    "#dde2cf"
+  ],
+  "frames": {
+    "houses-near": {
+      "file": "houses-near.png",
+      "frame": {
+        "width": 2048,
+        "height": 512
+      },
+      "visible": {
+        "x": 0,
+        "y": 85,
+        "width": 2048,
+        "height": 427
+      },
+      "baseline": 512,
+      "origin": {
+        "x": 0,
+        "y": 1
+      },
+      "worldScale": 0.7,
+      "tileX": false
+    }
+  },
+  "layout": {
+    "pavementWorldY": 500,
+    "housePlacement": "Image origin (0,1), y=500, scale=0.7; near houses track saboteur world movement.",
+    "runnerLane": "Cheero and ghost Garry both on pavement y=500.",
+    "saboteurLane": "Separate roofline; use visually audited roof surfaces, not player ground elevation.",
+    "chimneyPots": "Use existing rooftop-v1 pot assets separately; never bake them into houses.",
+    "auditedPreviewAnchors": {
+      "coordinateSpace": "exported houses-near.png pixels",
+      "saboteur": {
+        "x": 680,
+        "y": 201
+      },
+      "potMounts": [
+        {
+          "x": 905,
+          "y": 125
+        }
+      ],
+      "note": "These coordinates are validated in the layout review; player and ghost ground baseline remains 512 in asset space."
+    }
+  }
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="icon" type="image/png" href="./images/icon.png" />
+    <link rel="apple-touch-icon" href="./images/icon.png" />
+    <link rel="canonical" href="https://beatmyrun.snappyfoxgames.co.uk" />
+    <meta name="description" content="Beat My Run — a Snappy Fox Games title." />
+    <title>Beat My Run</title>
+    <script type="module" crossorigin src="./assets/index-BGO2R-Ue.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/react-YWPnaJPF.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-Beayigmg.css">
+  </head>
+  <body>
+    <!-- Instant boot splash: pure HTML/CSS so it paints before the ~1.5MB
+         JS bundle downloads on slow connections (Poki reviews a hosted
+         build — first paint IS the first impression). LCD-styled like the
+         game: dark bezel, pale screen, segmented gauge. Removed when the
+         scene signals it is paintable — the same moment the route fires
+         bridge.loadingFinished (ctx.onReady in GameScreen). -->
+    <div id="boot-splash" role="status" aria-live="polite" aria-label="Beat My Run loading">
+      <div class="bs-screen">
+        <img class="bs-logo" src="./images/brand/logo-boot.png" alt="Beat My Run" />
+        <div class="bs-gauge" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Loading progress">
+          <div class="bs-fill" id="bs-fill"></div>
+          <div class="bs-ticks" aria-hidden="true"></div>
+        </div>
+        <div class="bs-load" id="bs-load">LOADING&nbsp;&nbsp;0</div>
+      </div>
+    </div>
+    <style>
+      /* LCD Game&Watch palette — matches the in-game screen/chrome. */
+      #boot-splash {
+        position: fixed; inset: 0; z-index: 999;
+        display: flex; align-items: center; justify-content: center;
+        background: #101409;
+        font-family: "Courier New", ui-monospace, monospace;
+        transition: opacity 0.25s ease;
+      }
+      #boot-splash.done { opacity: 0; pointer-events: none; }
+      .bs-screen {
+        display: flex; flex-direction: column; align-items: center;
+        gap: 26px; padding: 44px 52px;
+        background: #cfd4bb;
+        border-radius: 18px;
+        box-shadow: inset 0 0 60px rgba(40, 46, 32, 0.18), 0 0 0 6px #1d2117, 0 18px 50px rgba(0,0,0,0.55);
+      }
+      .bs-logo { width: min(58vw, 300px); height: auto; image-rendering: auto; }
+      .bs-gauge {
+        width: min(56vw, 280px); height: 20px;
+        background: #b8bda4;
+        border: 2px solid #232a1e;
+        border-radius: 4px;
+        overflow: hidden; position: relative;
+        box-shadow: inset 0 2px 4px rgba(35,42,30,0.45);
+      }
+      .bs-fill {
+        height: 100%; width: 0%;
+        background: #232a1e;
+        transition: width 0.2s ease-out;
+      }
+      /* Segmented digits — the LCD tick marks ride over the fill so the
+         bar reads as printed segments, not a modern slider. */
+      .bs-ticks {
+        position: absolute; inset: 0;
+        background: repeating-linear-gradient(90deg,
+          transparent 0 12px, rgba(207,212,187,0.85) 12px 14px);
+      }
+      .bs-load {
+        font-size: 18px; font-weight: 700; color: #232a1e;
+        letter-spacing: 0.22em;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .bs-fill { transition: none; }
+      }
+    </style>
+    <script>
+      // The gauge crawls to 65% while the JS bundle is in flight (the
+      // honest floor); GameScene.preload then reports real BOOT-tier
+      // progress through __bootProgress, and ctx.onReady tops it to 100
+      // and drops the splash at the first paintable frame.
+      (function () {
+        var fill = document.getElementById("bs-fill");
+        var load = document.getElementById("bs-load");
+        var gauge = document.querySelector(".bs-gauge");
+        var shown = 0, target = 0, start = performance.now();
+        window.__bootP = 0;
+        window.__bootProgress = function (p) { window.__bootP = p * 100; };
+        function tick(now) {
+          var t = Math.min(1, (now - start) / 4500);
+          var crawl = 65 * (1 - Math.pow(1 - t, 2));
+          target = Math.max(crawl, window.__bootP);
+          shown += (target - shown) * 0.14;
+          var p = Math.min(100, shown);
+          fill.style.width = p + "%";
+          load.innerHTML = "LOADING&nbsp;&nbsp;" + Math.round(p);
+          gauge.setAttribute("aria-valuenow", String(Math.round(p)));
+          if (!document.getElementById("boot-splash")) return;
+          requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      })();
+    </script>
+    <div id="root"></div>
+  </body>
+</html>

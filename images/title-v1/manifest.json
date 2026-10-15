@@ -1,0 +1,38 @@
+{
+  "palette": {
+    "ink": "#1a1f1a",
+    "cream": "#f7e7c5",
+    "orange": "#ff7a1a",
+    "garryGreen": "#51c44d",
+    "garryDarkGreen": "#14783f",
+    "backdrop": "#b9c2aa",
+    "backdropLight": "#dde2cf"
+  },
+  "frames": {
+    "title": {
+      "scene": {
+        "file": "title-scene.png",
+        "frame": {
+          "width": 1024,
+          "height": 576
+        },
+        "visible": {
+          "x": 0,
+          "y": 158,
+          "width": 1024,
+          "height": 405
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "titleSafeArea": {
+          "x": 256,
+          "y": 24,
+          "width": 512,
+          "height": 176
+        }
+      }
+    }
+  }
+}

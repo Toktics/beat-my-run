@@ -1,0 +1,99 @@
+{
+  "pack": "rooftop-v1",
+  "version": 1,
+  "request": "REQ-Z1",
+  "palette": {
+    "ink": "#1a1f1a",
+    "mid": "#8d9789",
+    "pale": "#b9c2aa",
+    "far": "#aab4a0",
+    "highlight": "#dde2cf"
+  },
+  "frames": {
+    "chimney-pot": {
+      "file": "chimney-pot.png",
+      "textureKey": "roof-chimney-pot",
+      "frame": {
+        "width": 96,
+        "height": 112
+      },
+      "visible": {
+        "x": 9,
+        "y": 6,
+        "width": 79,
+        "height": 100
+      },
+      "baseline": 106,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9464
+      },
+      "intendedDisplay": {
+        "width": 46,
+        "height": 56
+      }
+    },
+    "chimney-pot-broken": {
+      "file": "chimney-pot-broken.png",
+      "textureKey": "roof-chimney-pot-broken",
+      "frame": {
+        "width": 128,
+        "height": 80
+      },
+      "visible": {
+        "x": 13,
+        "y": 6,
+        "width": 102,
+        "height": 68
+      },
+      "baseline": 74,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.925
+      },
+      "intendedDisplay": {
+        "width": 72,
+        "height": 44
+      }
+    },
+    "chimney-pot-ring-back": {
+      "file": "chimney-pot-ring-back.png",
+      "textureKey": "roof-pot-ring-back",
+      "frame": { "width": 96, "height": 112 },
+      "anchor": { "x": 0.5, "y": 0.5 },
+      "intendedDisplay": { "width": 52, "height": 61 },
+      "role": "rear rim layer behind Cheero during the L7 waist-ring gag"
+    },
+    "chimney-pot-ring-front": {
+      "file": "chimney-pot-ring-front.png",
+      "textureKey": "roof-pot-ring-front",
+      "frame": { "width": 96, "height": 112 },
+      "anchor": { "x": 0.5, "y": 0.5 },
+      "intendedDisplay": { "width": 52, "height": 61 },
+      "role": "front rim/body layer over Cheero during the L7 waist-ring gag"
+    },
+    "skyline-far": {
+      "file": "skyline-far.png",
+      "textureKey": "roof-skyline-far",
+      "frame": {
+        "width": 1024,
+        "height": 256
+      },
+      "visible": {
+        "x": 55,
+        "y": 106,
+        "width": 915,
+        "height": 150
+      },
+      "baseline": 256,
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "intendedDisplay": {
+        "width": 1024,
+        "height": 256
+      }
+    }
+  }
+}

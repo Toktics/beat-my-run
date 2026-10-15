@@ -1,0 +1,101 @@
+{
+  "palette": {
+    "backdropInk": "#b9c2aa",
+    "screen": "#cdd3bd"
+  },
+  "frames": {
+    "props": {
+      "watchtower": {
+        "file": "props/watchtower.png",
+        "frame": {
+          "width": 192,
+          "height": 256
+        },
+        "visible": {
+          "x": 18,
+          "y": 8,
+          "width": 156,
+          "height": 240
+        },
+        "baseline": 248,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "crowd-stand": {
+        "file": "props/crowd-stand.png",
+        "frame": {
+          "width": 480,
+          "height": 192
+        },
+        "visible": {
+          "x": 12,
+          "y": 53,
+          "width": 456,
+          "height": 131
+        },
+        "baseline": 184,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "signpost": {
+        "file": "props/signpost.png",
+        "frame": {
+          "width": 240,
+          "height": 256
+        },
+        "visible": {
+          "x": 8,
+          "y": 9,
+          "width": 224,
+          "height": 239
+        },
+        "baseline": 248,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "pines": {
+        "file": "props/pines.png",
+        "frame": {
+          "width": 300,
+          "height": 256
+        },
+        "visible": {
+          "x": 35,
+          "y": 8,
+          "width": 229,
+          "height": 240
+        },
+        "baseline": 248,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "hill-far": {
+        "file": "props/hill-far.png",
+        "frame": {
+          "width": 1024,
+          "height": 256
+        },
+        "visible": {
+          "x": 0,
+          "y": 181,
+          "width": 1024,
+          "height": 75
+        },
+        "baseline": 256,
+        "anchor": {
+          "x": 0,
+          "y": 1
+        },
+        "tileableX": true
+      }
+    }
+  }
+}

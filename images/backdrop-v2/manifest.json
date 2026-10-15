@@ -1,0 +1,102 @@
+{
+  "theme": "harbour-dockside",
+  "palette": {
+    "backdropInk": "#b9c2aa",
+    "screen": "#cdd3bd"
+  },
+  "frames": {
+    "props": {
+      "lighthouse": {
+        "file": "props/lighthouse.png",
+        "frame": {
+          "width": 192,
+          "height": 256
+        },
+        "visible": {
+          "x": 8,
+          "y": 57,
+          "width": 176,
+          "height": 191
+        },
+        "baseline": 248,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "dock-crane": {
+        "file": "props/dock-crane.png",
+        "frame": {
+          "width": 240,
+          "height": 256
+        },
+        "visible": {
+          "x": 24,
+          "y": 8,
+          "width": 192,
+          "height": 240
+        },
+        "baseline": 248,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "warehouse": {
+        "file": "props/warehouse.png",
+        "frame": {
+          "width": 480,
+          "height": 192
+        },
+        "visible": {
+          "x": 12,
+          "y": 95,
+          "width": 456,
+          "height": 89
+        },
+        "baseline": 184,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "boats": {
+        "file": "props/boats.png",
+        "frame": {
+          "width": 420,
+          "height": 192
+        },
+        "visible": {
+          "x": 12,
+          "y": 92,
+          "width": 396,
+          "height": 92
+        },
+        "baseline": 184,
+        "anchor": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "harbour-far": {
+        "file": "props/harbour-far.png",
+        "frame": {
+          "width": 1024,
+          "height": 256
+        },
+        "visible": {
+          "x": 0,
+          "y": 188,
+          "width": 1024,
+          "height": 68
+        },
+        "baseline": 256,
+        "anchor": {
+          "x": 0,
+          "y": 1
+        },
+        "tileableX": true
+      }
+    }
+  }
+}
