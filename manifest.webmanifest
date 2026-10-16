@@ -1,0 +1,13 @@
+{
+  "name": "Beat My Run",
+  "short_name": "Beat My Run",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "icons": [
+    { "src": "./images/icon.png", "sizes": "256x256", "type": "image/png", "purpose": "any" }
+  ]
+}

@@ -6,12 +6,20 @@
     <meta name="theme-color" content="#0b1020" />
     <link rel="icon" type="image/png" href="./images/icon.png" />
     <link rel="apple-touch-icon" href="./images/icon.png" />
+    <!-- iPhone Safari has no element fullscreen API — the only chromeless
+         path is standalone mode via Add to Home Screen, which needs the
+         manifest + these caps. Android gets the in-tab ⛶ button instead. -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Beat My Run" />
     <link rel="canonical" href="https://beatmyrun.snappyfoxgames.co.uk" />
     <meta name="description" content="Beat My Run — a Snappy Fox Games title." />
     <title>Beat My Run</title>
-    <script type="module" crossorigin src="./assets/index-DIPHbePJ.js"></script>
+    <script type="module" crossorigin src="./assets/index-Dt6u5wSo.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-YWPnaJPF.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-BsQ0peOA.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-CIIuNzlf.css">
   </head>
   <body>
     <!-- Instant boot splash: pure HTML/CSS so it paints before the ~1.5MB
